@@ -1,7 +1,8 @@
+## Advanced Lane Finding
+[![Udacity - Self-Driving Car NanoDegree](https://s3.amazonaws.com/udacity-sdc/github/shield-carnd.svg)](http://www.udacity.com/drive)
 
-# Advanced Lane Finding
 
-Shor Overview of the following prozessing steps:
+Short Overview of the following prozessing steps:
 
 - camera calibration
 - distortion correction
@@ -22,208 +23,208 @@ Open CV is used to detect 9x6 chessboard pattern. If 9x6 chessboard pattern fail
     
 
 
-![png](readme_images\output_3_1.png)
+![png](readme_images/output_3_1.png)
 
 
     camera_cal\calibration10.jpg
     
 
 
-![png](readme_images\output_3_3.png)
+![png](readme_images/output_3_3.png)
 
 
 
-![png](readme_images\output_3_4.png)
+![png](readme_images/output_3_4.png)
 
 
     camera_cal\calibration11.jpg
     
 
 
-![png](readme_images\output_3_6.png)
+![png](readme_images/output_3_6.png)
 
 
 
-![png](readme_images\output_3_7.png)
+![png](readme_images/output_3_7.png)
 
 
     camera_cal\calibration12.jpg
     
 
 
-![png](readme_images\output_3_9.png)
+![png](readme_images/output_3_9.png)
 
 
 
-![png](readme_images\output_3_10.png)
+![png](readme_images/output_3_10.png)
 
 
     camera_cal\calibration13.jpg
     
 
 
-![png](readme_images\output_3_12.png)
+![png](readme_images/output_3_12.png)
 
 
 
-![png](readme_images\output_3_13.png)
+![png](readme_images/output_3_13.png)
 
 
     camera_cal\calibration14.jpg
     
 
 
-![png](readme_images\output_3_15.png)
+![png](readme_images/output_3_15.png)
 
 
 
-![png](readme_images\output_3_16.png)
+![png](readme_images/output_3_16.png)
 
 
     camera_cal\calibration15.jpg
     
 
 
-![png](readme_images\output_3_18.png)
+![png](readme_images/output_3_18.png)
 
 
 
-![png](readme_images\output_3_19.png)
+![png](readme_images/output_3_19.png)
 
 
     camera_cal\calibration16.jpg
     
 
 
-![png](readme_images\output_3_21.png)
+![png](readme_images/output_3_21.png)
 
 
 
-![png](readme_images\output_3_22.png)
+![png](readme_images/output_3_22.png)
 
 
     camera_cal\calibration17.jpg
     
 
 
-![png](readme_images\output_3_24.png)
+![png](readme_images/output_3_24.png)
 
 
 
-![png](readme_images\output_3_25.png)
+![png](readme_images/output_3_25.png)
 
 
     camera_cal\calibration18.jpg
     
 
 
-![png](readme_images\output_3_27.png)
+![png](readme_images/output_3_27.png)
 
 
 
-![png](readme_images\output_3_28.png)
+![png](readme_images/output_3_28.png)
 
 
     camera_cal\calibration19.jpg
     
 
 
-![png](readme_images\output_3_30.png)
+![png](readme_images/output_3_30.png)
 
 
 
-![png](readme_images\output_3_31.png)
+![png](readme_images/output_3_31.png)
 
 
     camera_cal\calibration2.jpg
     
 
 
-![png](readme_images\output_3_33.png)
+![png](readme_images/output_3_33.png)
 
 
 
-![png](readme_images\output_3_34.png)
+![png](readme_images/output_3_34.png)
 
 
     camera_cal\calibration20.jpg
     
 
 
-![png](readme_images\output_3_36.png)
+![png](readme_images/output_3_36.png)
 
 
 
-![png](readme_images\output_3_37.png)
+![png](readme_images/output_3_37.png)
 
 
     camera_cal\calibration3.jpg
     
 
 
-![png](readme_images\output_3_39.png)
+![png](readme_images/output_3_39.png)
 
 
 
-![png](readme_images\output_3_40.png)
+![png](readme_images/output_3_40.png)
 
 
     camera_cal\calibration4.jpg
     
 
 
-![png](readme_images\output_3_42.png)
+![png](readme_images/output_3_42.png)
 
 
     camera_cal\calibration5.jpg
     
 
 
-![png](readme_images\output_3_44.png)
+![png](readme_images/output_3_44.png)
 
 
     camera_cal\calibration6.jpg
     
 
 
-![png](readme_images\output_3_46.png)
+![png](readme_images/output_3_46.png)
 
 
 
-![png](readme_images\output_3_47.png)
+![png](readme_images/output_3_47.png)
 
 
     camera_cal\calibration7.jpg
     
 
 
-![png](readme_images\output_3_49.png)
+![png](readme_images/output_3_49.png)
 
 
 
-![png](readme_images\output_3_50.png)
+![png](readme_images/output_3_50.png)
 
 
     camera_cal\calibration8.jpg
     
 
 
-![png](readme_images\output_3_52.png)
+![png](readme_images/output_3_52.png)
 
 
 
-![png](readme_images\output_3_53.png)
+![png](readme_images/output_3_53.png)
 
 
     camera_cal\calibration9.jpg
     
 
 
-![png](readme_images\output_3_55.png)
+![png](readme_images/output_3_55.png)
 
 
 
-![png](readme_images\output_3_56.png)
+![png](readme_images/output_3_56.png)
 
 
 # Pipeline
@@ -237,308 +238,308 @@ Distortion correction that was calculated via camera calibration has been applie
     
 
 
-![png](readme_images\output_5_1.png)
+![png](readme_images/output_5_1.png)
 
 
 
-![png](readme_images\output_5_2.png)
+![png](readme_images/output_5_2.png)
 
 
     camera_cal\calibration10.jpg
     
 
 
-![png](readme_images\output_5_4.png)
+![png](readme_images/output_5_4.png)
 
 
 
-![png](readme_images\output_5_5.png)
+![png](readme_images/output_5_5.png)
 
 
     camera_cal\calibration11.jpg
     
 
 
-![png](readme_images\output_5_7.png)
+![png](readme_images/output_5_7.png)
 
 
 
-![png](readme_images\output_5_8.png)
+![png](readme_images/output_5_8.png)
 
 
     camera_cal\calibration12.jpg
     
 
 
-![png](readme_images\output_5_10.png)
+![png](readme_images/output_5_10.png)
 
 
 
-![png](readme_images\output_5_11.png)
+![png](readme_images/output_5_11.png)
 
 
     camera_cal\calibration13.jpg
     
 
 
-![png](readme_images\output_5_13.png)
+![png](readme_images/output_5_13.png)
 
 
 
-![png](readme_images\output_5_14.png)
+![png](readme_images/output_5_14.png)
 
 
     camera_cal\calibration14.jpg
     
 
 
-![png](readme_images\output_5_16.png)
+![png](readme_images/output_5_16.png)
 
 
 
-![png](readme_images\output_5_17.png)
+![png](readme_images/output_5_17.png)
 
 
     camera_cal\calibration15.jpg
     
 
 
-![png](readme_images\output_5_19.png)
+![png](readme_images/output_5_19.png)
 
 
 
-![png](readme_images\output_5_20.png)
+![png](readme_images/output_5_20.png)
 
 
     camera_cal\calibration16.jpg
     
 
 
-![png](readme_images\output_5_22.png)
+![png](readme_images/output_5_22.png)
 
 
 
-![png](readme_images\output_5_23.png)
+![png](readme_images/output_5_23.png)
 
 
     camera_cal\calibration17.jpg
     
 
 
-![png](readme_images\output_5_25.png)
+![png](readme_images/output_5_25.png)
 
 
 
-![png](readme_images\output_5_26.png)
+![png](readme_images/output_5_26.png)
 
 
     camera_cal\calibration18.jpg
     
 
 
-![png](readme_images\output_5_28.png)
+![png](readme_images/output_5_28.png)
 
 
 
-![png](readme_images\output_5_29.png)
+![png](readme_images/output_5_29.png)
 
 
     camera_cal\calibration19.jpg
     
 
 
-![png](readme_images\output_5_31.png)
+![png](readme_images/output_5_31.png)
 
 
 
-![png](readme_images\output_5_32.png)
+![png](readme_images/output_5_32.png)
 
 
     camera_cal\calibration2.jpg
     
 
 
-![png](readme_images\output_5_34.png)
+![png](readme_images/output_5_34.png)
 
 
 
-![png](readme_images\output_5_35.png)
+![png](readme_images/output_5_35.png)
 
 
     camera_cal\calibration20.jpg
     
 
 
-![png](readme_images\output_5_37.png)
+![png](readme_images/output_5_37.png)
 
 
 
-![png](readme_images\output_5_38.png)
+![png](readme_images/output_5_38.png)
 
 
     camera_cal\calibration3.jpg
     
 
 
-![png](readme_images\output_5_40.png)
+![png](readme_images/output_5_40.png)
 
 
 
-![png](readme_images\output_5_41.png)
+![png](readme_images/output_5_41.png)
 
 
     camera_cal\calibration4.jpg
     
 
 
-![png](readme_images\output_5_43.png)
+![png](readme_images/output_5_43.png)
 
 
 
-![png](readme_images\output_5_44.png)
+![png](readme_images/output_5_44.png)
 
 
     camera_cal\calibration5.jpg
     
 
 
-![png](readme_images\output_5_46.png)
+![png](readme_images/output_5_46.png)
 
 
 
-![png](readme_images\output_5_47.png)
+![png](readme_images/output_5_47.png)
 
 
     camera_cal\calibration6.jpg
     
 
 
-![png](readme_images\output_5_49.png)
+![png](readme_images/output_5_49.png)
 
 
 
-![png](readme_images\output_5_50.png)
+![png](readme_images/output_5_50.png)
 
 
     camera_cal\calibration7.jpg
     
 
 
-![png](readme_images\output_5_52.png)
+![png](readme_images/output_5_52.png)
 
 
 
-![png](readme_images\output_5_53.png)
+![png](readme_images/output_5_53.png)
 
 
     camera_cal\calibration8.jpg
     
 
 
-![png](readme_images\output_5_55.png)
+![png](readme_images/output_5_55.png)
 
 
 
-![png](readme_images\output_5_56.png)
+![png](readme_images/output_5_56.png)
 
 
     camera_cal\calibration9.jpg
     
 
 
-![png](readme_images\output_5_58.png)
+![png](readme_images/output_5_58.png)
 
 
 
-![png](readme_images\output_5_59.png)
+![png](readme_images/output_5_59.png)
 
 
     test_images\straight_lines1.jpg
     
 
 
-![png](readme_images\output_5_61.png)
+![png](readme_images/output_5_61.png)
 
 
 
-![png](readme_images\output_5_62.png)
+![png](readme_images/output_5_62.png)
 
 
     test_images\straight_lines2.jpg
     
 
 
-![png](readme_images\output_5_64.png)
+![png](readme_images/output_5_64.png)
 
 
 
-![png](readme_images\output_5_65.png)
+![png](readme_images/output_5_65.png)
 
 
     test_images\test1.jpg
     
 
 
-![png](readme_images\output_5_67.png)
+![png](readme_images/output_5_67.png)
 
 
 
-![png](readme_images\output_5_68.png)
+![png](readme_images/output_5_68.png)
 
 
     test_images\test2.jpg
     
 
 
-![png](readme_images\output_5_70.png)
+![png](readme_images/output_5_70.png)
 
 
 
-![png](readme_images\output_5_71.png)
+![png](readme_images/output_5_71.png)
 
 
     test_images\test3.jpg
     
 
 
-![png](readme_images\output_5_73.png)
+![png](readme_images/output_5_73.png)
 
 
 
-![png](readme_images\output_5_74.png)
+![png](readme_images/output_5_74.png)
 
 
     test_images\test4.jpg
     
 
 
-![png](readme_images\output_5_76.png)
+![png](readme_images/output_5_76.png)
 
 
 
-![png](readme_images\output_5_77.png)
+![png](readme_images/output_5_77.png)
 
 
     test_images\test5.jpg
     
 
 
-![png](readme_images\output_5_79.png)
+![png](readme_images/output_5_79.png)
 
 
 
-![png](readme_images\output_5_80.png)
+![png](readme_images/output_5_80.png)
 
 
     test_images\test6.jpg
     
 
 
-![png](readme_images\output_5_82.png)
+![png](readme_images/output_5_82.png)
 
 
 
-![png](readme_images\output_5_83.png)
+![png](readme_images/output_5_83.png)
 
 
 ## birds-eye view application
@@ -552,203 +553,203 @@ The inverse "birds-eye view" transform was also implimentet here (but tested lat
     
 
 
-![png](readme_images\output_7_1.png)
+![png](readme_images/output_7_1.png)
 
 
     test_images\straight_lines2.jpg
     
 
 
-![png](readme_images\output_7_3.png)
+![png](readme_images/output_7_3.png)
 
 
     test_images\test1.jpg
     
 
 
-![png](readme_images\output_7_5.png)
+![png](readme_images/output_7_5.png)
 
 
     test_images\test2.jpg
     
 
 
-![png](readme_images\output_7_7.png)
+![png](readme_images/output_7_7.png)
 
 
     test_images\test3.jpg
     
 
 
-![png](readme_images\output_7_9.png)
+![png](readme_images/output_7_9.png)
 
 
     test_images\test4.jpg
     
 
 
-![png](readme_images\output_7_11.png)
+![png](readme_images/output_7_11.png)
 
 
     test_images\test5.jpg
     
 
 
-![png](readme_images\output_7_13.png)
+![png](readme_images/output_7_13.png)
 
 
     test_images\test6.jpg
     
 
 
-![png](readme_images\output_7_15.png)
+![png](readme_images/output_7_15.png)
 
 
     camera_cal\calibration1.jpg
     
 
 
-![png](readme_images\output_7_17.png)
+![png](readme_images/output_7_17.png)
 
 
     camera_cal\calibration10.jpg
     
 
 
-![png](readme_images\output_7_19.png)
+![png](readme_images/output_7_19.png)
 
 
     camera_cal\calibration11.jpg
     
 
 
-![png](readme_images\output_7_21.png)
+![png](readme_images/output_7_21.png)
 
 
     camera_cal\calibration12.jpg
     
 
 
-![png](readme_images\output_7_23.png)
+![png](readme_images/output_7_23.png)
 
 
     camera_cal\calibration13.jpg
     
 
 
-![png](readme_images\output_7_25.png)
+![png](readme_images/output_7_25.png)
 
 
     camera_cal\calibration14.jpg
     
 
 
-![png](readme_images\output_7_27.png)
+![png](readme_images/output_7_27.png)
 
 
     camera_cal\calibration15.jpg
     
 
 
-![png](readme_images\output_7_29.png)
+![png](readme_images/output_7_29.png)
 
 
     camera_cal\calibration16.jpg
     
 
 
-![png](readme_images\output_7_31.png)
+![png](readme_images/output_7_31.png)
 
 
     camera_cal\calibration17.jpg
     
 
 
-![png](readme_images\output_7_33.png)
+![png](readme_images/output_7_33.png)
 
 
     camera_cal\calibration18.jpg
     
 
 
-![png](readme_images\output_7_35.png)
+![png](readme_images/output_7_35.png)
 
 
     camera_cal\calibration19.jpg
     
 
 
-![png](readme_images\output_7_37.png)
+![png](readme_images/output_7_37.png)
 
 
     camera_cal\calibration2.jpg
     
 
 
-![png](readme_images\output_7_39.png)
+![png](readme_images/output_7_39.png)
 
 
     camera_cal\calibration20.jpg
     
 
 
-![png](readme_images\output_7_41.png)
+![png](readme_images/output_7_41.png)
 
 
     camera_cal\calibration3.jpg
     
 
 
-![png](readme_images\output_7_43.png)
+![png](readme_images/output_7_43.png)
 
 
     camera_cal\calibration4.jpg
     
 
 
-![png](readme_images\output_7_45.png)
+![png](readme_images/output_7_45.png)
 
 
     camera_cal\calibration5.jpg
     
 
 
-![png](readme_images\output_7_47.png)
+![png](readme_images/output_7_47.png)
 
 
     camera_cal\calibration6.jpg
     
 
 
-![png](readme_images\output_7_49.png)
+![png](readme_images/output_7_49.png)
 
 
     camera_cal\calibration7.jpg
     
 
 
-![png](readme_images\output_7_51.png)
+![png](readme_images/output_7_51.png)
 
 
     camera_cal\calibration8.jpg
     
 
 
-![png](readme_images\output_7_53.png)
+![png](readme_images/output_7_53.png)
 
 
     camera_cal\calibration9.jpg
     
 
 
-![png](readme_images\output_7_55.png)
+![png](readme_images/output_7_55.png)
 
 
     test_images\test6.jpg
     
 
 
-![png](readme_images\output_7_57.png)
+![png](readme_images/output_7_57.png)
 
 
 ## binary image
@@ -763,56 +764,56 @@ I belive that the approach can be much improved /finetuned a lot with a deep ler
     
 
 
-![png](readme_images\output_9_1.png)
+![png](readme_images/output_9_1.png)
 
 
     test_images\straight_lines2.jpg
     
 
 
-![png](readme_images\output_9_3.png)
+![png](readme_images/output_9_3.png)
 
 
     test_images\test1.jpg
     
 
 
-![png](readme_images\output_9_5.png)
+![png](readme_images/output_9_5.png)
 
 
     test_images\test2.jpg
     
 
 
-![png](readme_images\output_9_7.png)
+![png](readme_images/output_9_7.png)
 
 
     test_images\test3.jpg
     
 
 
-![png](readme_images\output_9_9.png)
+![png](readme_images/output_9_9.png)
 
 
     test_images\test4.jpg
     
 
 
-![png](readme_images\output_9_11.png)
+![png](readme_images/output_9_11.png)
 
 
     test_images\test5.jpg
     
 
 
-![png](readme_images\output_9_13.png)
+![png](readme_images/output_9_13.png)
 
 
     test_images\test6.jpg
     
 
 
-![png](readme_images\output_9_15.png)
+![png](readme_images/output_9_15.png)
 
 
 # Lane Finding
@@ -826,88 +827,88 @@ The inverse "birds-eye view" transform was applyed.
     
 
 
-![png](readme_images\output_11_1.png)
+![png](readme_images/output_11_1.png)
 
 
 
-![png](readme_images\output_11_2.png)
+![png](readme_images/output_11_2.png)
 
 
     test_images\straight_lines2.jpg
     
 
 
-![png](readme_images\output_11_4.png)
+![png](readme_images/output_11_4.png)
 
 
 
-![png](readme_images\output_11_5.png)
+![png](readme_images/output_11_5.png)
 
 
     test_images\test1.jpg
     
 
 
-![png](readme_images\output_11_7.png)
+![png](readme_images/output_11_7.png)
 
 
 
-![png](readme_images\output_11_8.png)
+![png](readme_images/output_11_8.png)
 
 
     test_images\test2.jpg
     
 
 
-![png](readme_images\output_11_10.png)
+![png](readme_images/output_11_10.png)
 
 
 
-![png](readme_images\output_11_11.png)
+![png](readme_images/output_11_11.png)
 
 
     test_images\test3.jpg
     
 
 
-![png](readme_images\output_11_13.png)
+![png](readme_images/output_11_13.png)
 
 
 
-![png](readme_images\output_11_14.png)
+![png](readme_images/output_11_14.png)
 
 
     test_images\test4.jpg
     
 
 
-![png](readme_images\output_11_16.png)
+![png](readme_images/output_11_16.png)
 
 
 
-![png](readme_images\output_11_17.png)
+![png](readme_images/output_11_17.png)
 
 
     test_images\test5.jpg
     
 
 
-![png](readme_images\output_11_19.png)
+![png](readme_images/output_11_19.png)
 
 
 
-![png](readme_images\output_11_20.png)
+![png](readme_images/output_11_20.png)
 
 
     test_images\test6.jpg
     
 ---
 
-![png](readme_images\output_11_22.png)
+![png](readme_images/output_11_22.png)
 
 
 
-![png](readme_images\output_11_23.png)
+![png](readme_images/output_11_23.png)
 
 
 
@@ -916,56 +917,56 @@ The inverse "birds-eye view" transform was applyed.
     
 
 
-![png](readme_images\output_13_1.png)
+![png](readme_images/output_13_1.png)
 
 
     test_images\straight_lines2.jpg
     
 
 
-![png](readme_images\output_13_3.png)
+![png](readme_images/output_13_3.png)
 
 
     test_images\test1.jpg
     
 
 
-![png](readme_images\output_13_5.png)
+![png](readme_images/output_13_5.png)
 
 
     test_images\test2.jpg
     
 
 
-![png](readme_images\output_13_7.png)
+![png](readme_images/output_13_7.png)
 
 
     test_images\test3.jpg
     
 
 
-![png](readme_images\output_13_9.png)
+![png](readme_images/output_13_9.png)
 
 
     test_images\test4.jpg
     
 
 
-![png](readme_images\output_13_11.png)
+![png](readme_images/output_13_11.png)
 
 
     test_images\test5.jpg
     
 
 
-![png](readme_images\output_13_13.png)
+![png](readme_images/output_13_13.png)
 
 
     test_images\test6.jpg
     
 
 
-![png](readme_images\output_13_15.png)
+![png](readme_images/output_13_15.png)
 
 
 # Radius of Curvature
@@ -978,7 +979,7 @@ Estimations of the curving and the offset of the middle of the road are calculat
     
 
 
-![png](readme_images\output_16_1.png)
+![png](readme_images/output_16_1.png)
 
 
     test_images\straight_lines2.jpg
@@ -986,7 +987,7 @@ Estimations of the curving and the offset of the middle of the road are calculat
     
 
 
-![png](readme_images\output_16_3.png)
+![png](readme_images/output_16_3.png)
 
 
     test_images\test1.jpg
@@ -994,7 +995,7 @@ Estimations of the curving and the offset of the middle of the road are calculat
     
 
 
-![png](readme_images\output_16_5.png)
+![png](readme_images/output_16_5.png)
 
 
     test_images\test2.jpg
@@ -1002,7 +1003,7 @@ Estimations of the curving and the offset of the middle of the road are calculat
     
 
 
-![png](readme_images\output_16_7.png)
+![png](readme_images/output_16_7.png)
 
 
     test_images\test3.jpg
@@ -1010,7 +1011,7 @@ Estimations of the curving and the offset of the middle of the road are calculat
     
 
 
-![png](readme_images\output_16_9.png)
+![png](readme_images/output_16_9.png)
 
 
     test_images\test4.jpg
@@ -1018,7 +1019,7 @@ Estimations of the curving and the offset of the middle of the road are calculat
     
 
 
-![png](readme_images\output_16_11.png)
+![png](readme_images/output_16_11.png)
 
 
     test_images\test5.jpg
@@ -1026,7 +1027,7 @@ Estimations of the curving and the offset of the middle of the road are calculat
     
 
 
-![png](readme_images\output_16_13.png)
+![png](readme_images/output_16_13.png)
 
 
     test_images\test6.jpg
@@ -1034,7 +1035,7 @@ Estimations of the curving and the offset of the middle of the road are calculat
     
 
 
-![png](readme_images\output_16_15.png)
+![png](readme_images/output_16_15.png)
 
 
 # Video processing
