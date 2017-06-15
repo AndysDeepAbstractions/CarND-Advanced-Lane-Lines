@@ -1044,6 +1044,17 @@ The the Pipeline is defined here and applyed to the Videos.
 
 Due to approaching deadline, the pipeline have not yet been finetuned to the challange videos.
 
-The Pipeline is running at acceptable speed even on slidely older hardware.
+The Pipeline has a acceptable computoral complexity.
+
+
+# Discussion
+
+
+I think the Pipeline will likely fail at roadworks,  pedestrian crossing and crossroad.
+
+As mentiond before i belive deep learning approaches will result in better binarizing/lanefinding as handcrafing parameters.
+
+Smoothing like exponential averaging is also a good aproach for removing short/sharp irritations especially with the striped side(s) of the lane.
+
 
 
