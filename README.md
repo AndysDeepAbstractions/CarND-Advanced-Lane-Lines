@@ -231,7 +231,7 @@ Open CV is used to detect 9x6 chessboard pattern. If 9x6 chessboard pattern fail
 
 ## Distortion-correction application
 
-Distortion correction that was calculated via camera calibration has been applied to each image. 
+Distortion correction that was calculated via camera calibration data and has been applied to each image. 
 
 
     camera_cal\calibration1.jpg
@@ -544,9 +544,9 @@ Distortion correction that was calculated via camera calibration has been applie
 
 ## birds-eye view application
 
-OpenCV functions has been used rectify each image to a "birds-eye view". The transform manages Regtion of Interrest implicid with the src and dst transform frames.
+OpenCV functions has been used rectify each image to a "birds-eye view". The transform manages regtion of interrest implicitly with the src and dst transform frame sizes.
 
-The inverse "birds-eye view" transform was also implimentet here (but tested later in the prozessing).
+The inverse "birds-eye view" transform was also implimentet here (the testing is implimented later in the prozessing).
 
 
     test_images\straight_lines1.jpg
@@ -757,7 +757,7 @@ The inverse "birds-eye view" transform was also implimentet here (but tested lat
 A manualy weighted sum of YUV is calculated to sum white and yellow lane information constructive. 
 The polar representation of Color in HSV/HLS makes it more complex for handcrafting features right.
 Canny was applyed.
-I belive that the approach can be much improved /finetuned a lot with a deep lerning insted of handcrafting. 
+I belive that the approach can be much improved / finetuned a lot with a deep lerning approach insted of handcrafting just a few parameters. 
 
 
     test_images\straight_lines1.jpg
@@ -818,9 +818,9 @@ I belive that the approach can be much improved /finetuned a lot with a deep ler
 
 # Lane Finding
 
-Two way (with and without convolution) were tested for lane finding. The approch without convolution seems to work a little better on my binarized images.
+Two ways (with and without convolution) were tested for lane finding. The approch without convolution seems to work a little better on my binarized images  so i used this.
 
-The inverse "birds-eye view" transform was applyed.
+The inverse "birds-eye view" transform was applyed afterwards.
 
 
     test_images\straight_lines1.jpg
@@ -971,7 +971,7 @@ The inverse "birds-eye view" transform was applyed.
 
 # Radius of Curvature
 
-Estimations of the curving and the offset of the middle of the road are calculated and overlayed in the right, upper conner of the image.
+Estimations of the curving and the offset of the middle of the road are calculated and overlayed afterwards in the right, upper conner of the image.
 
 
     test_images\straight_lines1.jpg
@@ -1040,10 +1040,10 @@ Estimations of the curving and the offset of the middle of the road are calculat
 
 # Video processing
 
-The the Pipeline is defined here and applyed to the Video.
+The the Pipeline is defined here and applyed to the Videos.
 
 Due to approaching deadline, the pipeline have not yet been finetuned to the challange videos.
 
-The Pipeline is running at acceptable speed even on older hardware.
+The Pipeline is running at acceptable speed even on slidely older hardware.
 
 
